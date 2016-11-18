@@ -1,0 +1,98 @@
+nav {
+  background-color: lightgray;
+  height: 40px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+
+}
+nav .navtext {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+}
+.navleft {
+  float: left;
+}
+.navright {
+  float: right;
+  word-spacing: 15px;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+main {
+  min-width: 1000px;
+  margin-top: 50px;
+  margin-right:100px;
+  margin-left:100px;
+}
+.search {
+  margin-bottom:20px;
+  vertical-align: middle;
+}
+.searchbox {
+  width: 600px;
+  height: 30px;
+}
+.searchbutton {
+  background: url(magnifying-glass.png) no-repeat;
+  background-size: cover;
+  height: 33px;
+  width: 33px;
+}
+.pagebox {
+  position: relative;
+  width: 400px;
+  margin-bottom:30px;
+}
+.column {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+.prev {
+  width: 20%;
+  float: left;
+  border-right: 1px solid lightgray;
+}
+.current {
+  width: 44%;
+
+}
+.next {
+  width: 20%;
+  float: right;
+  border-left: 1px solid lightgray;
+}
+.column a {
+  color: black;
+}
+ul {
+  list-style:none;
+  margin-left: -2em;
+ }
+li {
+  margin-bottom: 20px;
+}
+
+.listings {
+  color: gray;
+  display: inline-block;
+}
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+.listings a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.rounded {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
